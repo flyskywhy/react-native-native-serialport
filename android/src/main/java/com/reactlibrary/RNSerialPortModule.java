@@ -95,11 +95,6 @@ public class RNSerialPortModule extends ReactContextBaseJavaModule {
       //打开串口成功
       Log.d("BBC", "openSerialPort success");
       this.reactContext.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class).emit(onSerialPortOpenStatus,true);
-      WritableArray testArray = Arguments.createArray();
-      testArray.pushInt(23);
-      testArray.pushInt(15);
-      testArray.pushInt(48);
-      reactContext.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class).emit(onSerialPortRecevieData,testArray);
       manager.setReceiveCallback(mPortManagerCallback);
       mPortManagers.add(manager);
     }else {
