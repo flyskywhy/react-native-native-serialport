@@ -1,6 +1,7 @@
 package com.reactlibrary.serialportlib;
 
 import android.serialport.SerialPortFinder;
+import android.serialport.SerialPort;
 
 public class DLCSerialPortUtil {
     private static DLCSerialPortUtil instance;
@@ -14,6 +15,10 @@ public class DLCSerialPortUtil {
             instance = new DLCSerialPortUtil();
         }
         return instance;
+    }
+
+    public static void setSuPath(String suPath) {
+        SerialPort.setSuPath(suPath);
     }
 
     public String[] getAllDevicesPath() {

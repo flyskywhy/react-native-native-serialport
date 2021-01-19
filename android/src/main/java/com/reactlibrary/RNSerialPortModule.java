@@ -48,6 +48,11 @@ public class RNSerialPortModule extends ReactContextBaseJavaModule {
     Toast.makeText(getReactApplicationContext(), message, duration).show();
   }
 
+  @ReactMethod
+  public void setSuPath(String suPath) {
+    DLCSerialPortUtil.setSuPath(suPath);
+  }
+
   /*自定义原生和RN通讯方法*/
   /**
    * 获取串口列表 方式
