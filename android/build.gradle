@@ -40,7 +40,7 @@ allprojects {
 
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
+    implementation 'com.facebook.react:react-native:+'
     implementation 'com.github.licheedev.Android-SerialPort-API:serialport:1.0.1'
 
 }
