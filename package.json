@@ -1,29 +1,34 @@
 
 {
-  "name": "react-native-serial-port",
-  "version": "1.0.0",
-  "description": "",
+  "name": "react-native-native-serialport",
+  "version": "2.0.0",
+  "description": "Native serial port for react-native on Android",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native"
+    "android",
+    "native-serialport",
+    "native-serial-port",
+    "react-native",
+    "serialport",
+    "serial-port"
   ],
   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Marcello168/react-native-SerialPort"
+    "type": "git",
+    "url": "git+https://github.com/flyskywhy/react-native-native-serialport"
   },
   "bugs": {
-      "url": "https://github.com/Marcello168/react-native-SerialPort/issues"
+    "url": "https://github.com/flyskywhy/react-native-native-serialport/issues"
   },
-  "homepage": "https://github.com/Marcello168/react-native-SerialPort#readme",
-
-  "author": "",
-  "license": "",
+  "homepage": "https://github.com/flyskywhy/react-native-native-serialport#readme",
+  "author": {
+    "name": "Yonghui.gong",
+    "email": "gongyonghui168@gmail.com"
+  },
+  "license": "Apache",
   "peerDependencies": {
-    "react-native": "^0.41.2",
-    "react-native-windows": "0.41.0-rc.1"
-
+    "react-native": "^0.63.4"
   }
 }
