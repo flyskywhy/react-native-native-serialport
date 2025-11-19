@@ -14,6 +14,8 @@ For react-native USB serial port, please ref to <https://github.com/flyskywhy/re
 ## Install
 `npm install react-native-native-serialport`
 
+* `react-native-native-serialport@2.x` using Android 4KB page size
+* `react-native-native-serialport@3.x` using Android 16KB page size, ref to <https://developer.android.google.cn/guide/practices/page-sizes?hl=zh-cn>
 
 Add `maven { url 'https://jitpack.io' }` into `build.gradle`:
 
