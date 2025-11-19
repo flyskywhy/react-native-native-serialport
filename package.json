@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-native-serialport",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Native serial port for react-native on Android",
   "main": "index.js",
   "scripts": {
