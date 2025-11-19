@@ -32,7 +32,7 @@ public class SerialPortManager {
         try {
             File device = new File(devicePath);
             int baurate = Integer.parseInt(baudrateString);
-            this.mSerialPort = new SerialPort(device, baurate, 0);
+            this.mSerialPort = new SerialPort(device, baurate);
             this.mReadThread = new SerialReadThread(devicePath, baudrateString, this.mSerialPort.getInputStream());
             this.mReadThread.start();
             this.mOutputStream = this.mSerialPort.getOutputStream();
